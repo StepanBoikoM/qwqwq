@@ -55,8 +55,7 @@
         });
         
         button2.addEventListener('click', function(){
-            let message = Количество нажатий: ${count};
-            tg.sendMessage(message);
+            tg.sendData(count);
             tg.close();
         });
         
